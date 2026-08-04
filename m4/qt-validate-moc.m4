@@ -1,5 +1,7 @@
 # Detect Qt5 and Qt6 moc executable
 # partially borrowed from freeciv qt m4 scripts
+# https://github.com/freeciv/freeciv/blob/main/m4/qt6.m4
+# by Marko Lindqvist, which is licensed under GPL v2.0
 
 dnl Qt5
 AC_DEFUN([QT5_IF_QT5_MOC],
