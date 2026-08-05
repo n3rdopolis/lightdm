@@ -1,6 +1,6 @@
 Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=59
 Name: LightDM
-Maintainer: Robert Ancell <robert.ancell@gmail.com>
+Maintainer: Joshua Peisach <jpeisach@ubuntu.com>
 Source: https://github.com/ubuntu/lightdm
 
 Files: *
@@ -22,6 +22,11 @@ Files: debian/*.config
 Copyright:
  1998-2002, 2004, 2005 Branden Robinson <branden@debian.org>.
  2006 Eugene Konev <ejka@imfi.kspu.ru>
+License: GPL-2+
+
+Files: m4/qt-validate-moc.m4
+Copyright: 2019-2024 Marko Lindqvist <cazfi74@gmail.com>
+ 2026 Joshua Peisach <jpeisach@ubuntu.com>
 License: GPL-2+
 
 License: GPL-3+
